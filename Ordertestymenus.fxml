@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Family.controller.OrdertestymenusController">
+   <children>
+      <AnchorPane prefHeight="626.0" prefWidth="992.0">
+         <children>
+            <Label alignment="CENTER" layoutX="-1.0" layoutY="1.0" prefHeight="69.0" prefWidth="855.0" style="-fx-background-color: #007fff;" text="   order testy menus">
+               <font>
+                  <Font name="System Italic" size="34.0" />
+               </font>
+            </Label>
+            <Button fx:id="menu2" layoutX="215.0" layoutY="229.0" mnemonicParsing="false" onAction="#Menues" prefHeight="114.0" prefWidth="186.0" style="-fx-background-color: #a52a2a;" text="View Menu" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="order2" layoutX="438.0" layoutY="229.0" mnemonicParsing="false" onAction="#order2" prefHeight="114.0" prefWidth="186.0" style="-fx-background-color: #8db600;" text="Order Food" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
